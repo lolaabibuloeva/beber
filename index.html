@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+        Бобриный мир
+        </title>
+        <meta name="description" content="Блочная верстка HTML5">
+        <style>
+            div {vertical-align: baseline;}
+            * {box-sizing: border-box;}
+            #header h1 {
+                font-size: 24px;
+                text-transform: uppercase;
+                font-weight: bold;
+                padding: 30px 30px 30px 10px;
+                clear: both;
+                text-align: center;
+                text-shadow: 5px 4px 3px #e4e2e2;
+             }
+             #nav {background-color: rgba(74, 161, 255, 0.294);
+                border-top: 1px solid #d3c4ffa8;
+                border-bottom: 1px solid #0001075e;
+                }
+            #nav ul:after {content: " ";
+                display: table;
+                clear: both;
+                }
+            #nav li {float: left;
+                list-style: none;   
+                }
+            #nav a {display: block;
+                color: black;
+                padding: 10px 25px;
+                text-decoration: none;
+                border-right: 3px solid rgb(1, 25, 68);
+                font-size: xx-large;
+                }
+            #nav li:last-child a {border-right: none; 
+                }
+            #wrapper {
+                min-height: 500px;
+                background-image: url(sarka-krnavkova-LiVczGqKF_8-unsplash.jpg); 
+background-size: 100% 100%;  
+            }
+            #sidebar-left {
+                padding: 10px 10px 10px 10px;
+                float: left;
+                width: 25%;}
+            #sidebar-right {
+                padding: 10px 10px 10px 10px;
+                float: right;
+                width: 25%;}
+            #main {
+                padding: 10px 10px 10px 10px;
+                margin-left: 27%;
+                margin-right: 27%;
+                min-height: 500px;
+                background-color: rgba(255, 255, 255, 0.75);
+                /*float: left;*/
+                }
+            #footer {
+                background-color: rgba(114, 102, 188, 0.533);
+                clear: both;
+                padding: 15px 50px 15px 50px;
+                text-align: center;
+                }
+        </style>
+    </head>
+    <body>
+        <div id="header">
+            <h1>шоу бобрих</h1>
+        </div>
+        <div id="nav">
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="catalog.html">Каталог</a></li>
+                <li><a href="about.html">О бобриках</a></li>
+            </ul>
+        </div>
+        <div id="wrapper">
+            <div id="sidebar-left">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="catalog.html">Каталог</a></li>
+                    <li><a href="about.html">О бобриках</a></li>
+                </ul>
+            </div>
+            <div id="sidebar-right">
+                <p>Да да тут все о бобриках</p>
+             </div>
+            <div id="main">
+                <p>Добро пожаловать на сайт, посвященный удивительным созданиям – бобрам! Бобры – это удивительные полуводные грызуны, обладающие уникальными строительными способностями и играющие важную роль в экосистеме пресноводных водоемов.
+                    Основное отличие бобров – это их знаменитые передние зубы, способные легко обгрызать деревья и строить мощные дамбы на водотоках. Бобры активно участвуют в формировании водных ландшафтов, создавая дамбы, которые помогают контролировать уровень воды, обеспечивая благоприятные условия для жизни различных видов растений и животных.</p>
+            </div>
+        </div>
+        <div id="footer">Это подвал с бобренками</div>
+    </body>
+</html>   
